@@ -130,7 +130,7 @@ export default async function RoomPage(props: { params: Promise<{ slug: string }
                   </div>
 
                   <div className="space-y-4">
-                    <a href="tel:+905XXXXXXXXX" className="flex items-center justify-center gap-4 bg-slate-900 text-white py-5 md:py-6 rounded-[1.5rem] md:rounded-[2rem] font-bold text-base md:text-lg hover:bg-amber-700 transition-all shadow-lg active:scale-95">
+                    <a href="tel:+905400681010" className="flex items-center justify-center gap-4 bg-slate-900 text-white py-5 md:py-6 rounded-[1.5rem] md:rounded-[2rem] font-bold text-base md:text-lg hover:bg-amber-700 transition-all shadow-lg active:scale-95">
                       <Phone size={20} /> Hemen Rezervasyon
                     </a>
                   </div>
