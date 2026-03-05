@@ -46,8 +46,8 @@
 // }
 
 export default function ContactSection() {
-  const hotelPhone = "+90 5XX XXX XX XX"; // Müşterinin numarası buraya
-  const hotelAddress = "Atatürk Mah. Karesi, Balıkesir";
+  const hotelPhone = "+90540 068 10 10"; // Müşterinin numarası buraya
+  const hotelAddress = "Yıldırım, Başsaran Sk. No:12, 10100 Karesi/Balıkesir";
 
   return (
     <section id="iletisim" className="py-20 bg-slate-50">
