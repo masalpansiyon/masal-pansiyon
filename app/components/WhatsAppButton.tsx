@@ -28,7 +28,7 @@
 "use client";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "905317744991"; // Müşterinin numarası
+  const phoneNumber = "905400681010"; // Müşterinin numarası
   const message = "Merhaba Masal Pansiyon, oda müsaitliği ve fiyatlar hakkında bilgi alabilir miyim?";
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

@@ -35,7 +35,7 @@ export default function GoogleSchema() {
       "addressCountry": "TR"
     },
     "priceRange": "₺1200 - ₺2500",
-    "telephone": "+905XXXXXXXXX", // Gerçek telefon numarasını buraya yaz
+    "telephone": "+905400681010", // Gerçek telefon numarasını buraya yaz
   };
 
   return (
