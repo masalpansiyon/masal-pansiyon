@@ -20,7 +20,7 @@ export default function Navbar() {
         <Link 
           href="/" 
           className={`text-2xl font-serif font-bold transition-colors duration-300 ${
-            scrolled ? 'text-slate-900' : 'text-white'// text-amber-800
+            scrolled ? 'text-amber-800' : 'text-white'// text-amber-800
           }`}
         >
           MASAL PANSİYON
