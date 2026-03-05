@@ -44,8 +44,8 @@ export default function Footer() {
 
         {/* ALT ÇİZGİ VE EK LİNKLER */}
         <div className="pt-8 border-t border-slate-900/50 flex flex-col md:flex-row justify-center gap-6 text-[10px] text-slate-600 uppercase tracking-widest">
-          <a href="#" className="hover:text-slate-400 transition-colors">Gizlilik Politikası</a>
-          <a href="#" className="hover:text-slate-400 transition-colors">KVKK Aydınlatma Metni</a>
+          <a href="/gizlilik" className="hover:text-slate-400 transition-colors">Gizlilik Politikası</a>
+          <a href="/kvkk" className="hover:text-slate-400 transition-colors">KVKK Aydınlatma Metni</a>
           <a href="/iletisim" className="hover:text-slate-400 transition-colors">İletişim</a>
         </div>
       </div>
