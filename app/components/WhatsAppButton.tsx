@@ -1,30 +1,3 @@
-// "use client";
-// import { MessageCircle } from 'lucide-react';
-
-// export default function WhatsAppButton() {
-//   const phoneNumber = "905XXXXXXXXX"; // Buraya müşterinin numarasını (başında 90 ile) yaz
-//   const message = "Merhaba Masal Pansiyon, oda müsaitliği ve fiyatlar hakkında bilgi alabilir miyim?";
-  
-//   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-
-//   return (
-//     <a
-//       href={whatsappUrl}
-//       target="_blank"
-//       rel="noopener noreferrer"
-//       className="fixed bottom-24 right-6 md:bottom-8 md:right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-[0_10px_30px_rgba(37,211,102,0.4)] hover:scale-110 hover:bg-[#20ba5a] transition-all duration-300 group"
-//       aria-label="WhatsApp ile iletişime geçin"
-//     >
-//       <div className="flex items-center gap-2">
-//         <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold text-sm">
-//           Bize Yazın
-//         </span>
-//         <MessageCircle size={28} fill="currentColor" />
-//       </div>
-//     </a>
-//   );
-// }
-
 "use client";
 
 export default function WhatsAppButton() {

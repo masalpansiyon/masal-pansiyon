@@ -1,24 +1,3 @@
-// export default function Footer() {
-//   return (
-//     <footer className="bg-slate-900 text-white py-12 border-t border-slate-800">
-//       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
-//         <div>
-//           <div className="text-2xl font-serif font-bold text-amber-500 mb-2">MASAL PANSİYON</div>
-//           <p className="text-slate-400 text-sm">© 2026 Tüm Hakları Saklıdır.</p>
-//         </div>
-//         <div className="flex gap-6 text-sm font-medium">
-//           <a href="#" className="hover:text-amber-500 transition">Gizlilik Politikası</a>
-//           <a href="#" className="hover:text-amber-500 transition">KVKK</a>
-//           <a href="#iletisim" className="hover:text-amber-500 transition">Konum</a>
-//         </div>
-//         <div className="text-slate-400 text-xs">
-//           Designed by <span className="text-white font-semibold italic">TOKSoft</span>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// }
-
 import Link from 'next/link';
 import { Instagram, Facebook, MapPin } from 'lucide-react';
 

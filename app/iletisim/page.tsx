@@ -56,7 +56,7 @@ export default function ContactPage() {
 
             {/* Hızlı Buton */}
             <a 
-              href="https://maps.app.goo.gl/9Zp7p8fS6e6m6e6e6" 
+              href="https://maps.app.goo.gl/LiYLtdWiZM4kGEJY6" 
               target="_blank" 
               className="block w-full text-center bg-slate-900 text-white py-6 rounded-[2rem] font-bold text-lg hover:bg-amber-700 transition-all shadow-xl active:scale-95"
             >
@@ -66,15 +66,7 @@ export default function ContactPage() {
 
           {/* SAĞ TARAF: HARİTA IFRAME */}
           <div className="h-[500px] lg:h-full min-h-[500px] w-full rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
-            {/* <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.123456789!2d27.8840316!3d39.6481969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b7014e38d7d4d9%3A0x8284665dd3539d20!2sMASAL%20PANS%20İ%20YON!5e0!3m2!1str!2str!4v1710000000000!5m2!1str!2str" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe> */}
+           
               <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.06725134892!2d27.881456675443406!3d39.64820100205669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b7014ed8d0d469%3A0x3a84665dd34b9d20!2sMASAL%20PANS%C4%B0YON!5e0!3m2!1str!2str!4v1769892949788!5m2!1str!2str"
     width="100%" 

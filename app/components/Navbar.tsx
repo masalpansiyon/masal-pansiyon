@@ -1,62 +1,3 @@
-// "use client";
-// import { useState, useEffect } from 'react';
-// //import { HOTEL_INFO } from '../constant/data';
-
-// export default function Navbar() {
-//   const [scrolled, setScrolled] = useState(false);
-
-//   useEffect(() => {
-//     const handleScroll = () => setScrolled(window.scrollY > 50);
-//     window.addEventListener('scroll', handleScroll);
-//     return () => window.removeEventListener('scroll', handleScroll);
-//   }, []);
-
-//   return (
-//     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
-//       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-//         <div className={`text-2xl font-serif font-bold ${scrolled ? 'text-amber-800' : 'text-white'}`}>
-//           MASAL PANSİYON
-//         </div>
-//         <div className="hidden md:flex space-x-8 items-center font-medium">
-//           <a href="#odalar" className={scrolled ? 'text-slate-700 hover:text-amber-800' : 'text-white/90 hover:text-white'}>Odalar</a>
-//           <a href="#fiyatlar" className={scrolled ? 'text-slate-700 hover:text-amber-800' : 'text-white/90 hover:text-white'}>Fiyatlar</a>
-//           <a href={`tel:${HOTEL_INFO.phone}`} className="bg-amber-600 text-white px-5 py-2 rounded-full hover:bg-amber-700 transition shadow-lg">Hemen Ara</a>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// "use client";
-// import { useState, useEffect } from 'react';
-
-// export default function Navbar() {
-//   const [scrolled, setScrolled] = useState(false);
-
-//   useEffect(() => {
-//     const handleScroll = () => setScrolled(window.scrollY > 50);
-//     window.addEventListener('scroll', handleScroll);
-//     return () => window.removeEventListener('scroll', handleScroll);
-//   }, []);
-
-//   return (
-//     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
-//       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-//         <div className={`text-2xl font-serif font-bold transition-colors duration-300 
-//   ${scrolled ? 'text-amber-800' : 'text-white'}`}>
-//   MASAL PANSİYON
-// </div>
-//         <div className="hidden md:flex space-x-8 items-center font-medium">
-//           <a href="#odalar" className={scrolled ? 'text-slate-700 hover:text-amber-800' : 'text-white/90 hover:text-white'}>Odalar</a>
-//           <a href="#galeri" className={scrolled ? 'text-slate-700 hover:text-amber-800' : 'text-white/90 hover:text-white'}>Galeri</a>
-//           {/* Müşterinin telefon numarasını buraya ekle */}
-//           <a href="tel:+905XXXXXXXXX" className="bg-amber-600 text-white px-5 py-2 rounded-full hover:bg-amber-700 transition shadow-lg text-sm uppercase font-bold tracking-tighter">Hemen Ara</a>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
-
 "use client";
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -108,7 +49,7 @@ export default function Navbar() {
 
           {/* İletişim Butonu */}
           <a 
-            href="tel:+905XXXXXXXXX" 
+            href="tel:+905400681010" 
             className="bg-amber-600 text-white px-5 py-2 rounded-full hover:bg-amber-700 transition shadow-lg text-sm uppercase font-bold tracking-tighter"
           >
             Hemen Ara
